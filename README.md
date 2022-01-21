@@ -9,10 +9,8 @@ Estou criando um site em HTML5/CSS3/JavaScript de RPG como sou iniciante estou t
   <img align="center" alt="Python" height="40" width="40" src="https://user-images.githubusercontent.com/97368866/149786904-6491de9e-be69-40b7-be48-e135d5ae92cf.png">
   
 ##
-
-Nesta etapa estou aplicando CSS (Tenho que aprender mais sobre disigner de site) estou usando principalmente o "grid" para alinhar os counteiners da manaira que eu quero.
-##
   Imagem Prototipo:
+  Nesta etapa estou aplicando CSS (Tenho que aprender mais sobre disigner de site) estou usando principalmente o "grid" para alinhar os counteiners da manaira que eu quero.
   <img src="https://user-images.githubusercontent.com/97368866/149789289-baed8361-448f-4b78-8b97-20bf9973f4a9.png">
 ##
   Estagio Inicial:
