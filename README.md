@@ -20,7 +20,7 @@ Estou criando um site em HTML5/CSS3/JavaScript de RPG como sou iniciante estou t
    Neste bloco foi desenvolvido os DADOS que são botões que tem uma função random em js, também foram customizados com uma imagem ".svg" sem fundo, e para deixar tranparente, usei "background-color:tranparant", ainda é necessario adicionar inputs para colocar numeros que ao girar o dado o proprio sistema dira se você falhou ou não.
   <img src="https://user-images.githubusercontent.com/97368866/150002681-25e70c28-9937-4c1c-8ba2-509723d968f4.png">
   
-  Nesta terceira etapa foi desenvolvido o LocalStorage para armazenar as informações como nome, os itens da mochila onde a lixeira é um botão que apagara as informções do respectivo espaço, também foi implementdo o LocalStorage na imagem onde agora é possível selecionar uma imagem propria.
+  Nesta terceira etapa foi desenvolvido o LocalStorage para armazenar as informações como nome,e os itens da mochila, a lixeira é um botão que apagara as informções do respectivo espaço, também foi implementdo o LocalStorage na imagem onde agora é possível selecionar uma imagem propria.
   <img src="https://user-images.githubusercontent.com/97368866/150584127-c375f199-4e29-47ba-b844-27de5e63448a.png">
   <img src="https://user-images.githubusercontent.com/97368866/150584137-9fcb0480-9258-4e8c-95fb-366a824c830c.png">
   <img src="https://user-images.githubusercontent.com/97368866/150584136-7d2f276c-c4c3-4bd0-9c6d-88d2a477b099.png">
