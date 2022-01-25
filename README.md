@@ -39,4 +39,7 @@ I'm creating a site in HTML5/CSS3/JavaScript RPG as I'm a beginner I'm trying my
   <img src="https://user-images.githubusercontent.com/97368866/150584136-7d2f276c-c4c3-4bd0-9c6d-88d2a477b099.png">
   <img src="https://user-images.githubusercontent.com/97368866/150584134-b84b1e73-0f7d-4303-84f7-acf0e448b921.png">
   
+  Nesta quarta etapa, depois de muita percistencia(pois ainda sou junior) consegui adicionar uma 'modal' para exibir o numero que foi aleatoriezado pelo sistema ao clicar no botão do dado.
+  <img src="https://user-images.githubusercontent.com/97368866/150584127-c375f199-4e29-47ba-b844-27de5e63448a.png">
+  
 
