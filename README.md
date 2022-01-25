@@ -1,5 +1,5 @@
 # SiteRPG
-Estou criando um site em HTML5/CSS3/JavaScript de RPG como sou iniciante estou tentando ao maximo deixar o mais bonito e eficiente possivel, todo dia pesquiso algo para implementar ou algo que me ajude a deixar a pagina melhor. Irei relatar todos os Uptades.
+Estou criando um site em HTML5/CSS3/JavaScript de RPG, como sou iniciante estou tentando ao maximo deixar o mais bonito e eficiente possivel, todo dia pesquiso algo para implementar ou algo que me ajude a deixar a pagina melhor. Irei relatar todos os Uptades.
 
 I'm creating a site in HTML5/CSS3/JavaScript RPG as I'm a beginner I'm trying my best to make it as beautiful and efficient as possible, every day I look for something to implement or something that helps me make the page better. I will report all Uptades.
 
