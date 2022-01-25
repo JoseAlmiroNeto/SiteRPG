@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>RPG</title>
+    <link rel='stylesheet' type='text/css' href='RPG.css'>
+</head>
+photo
+<body>
+    <div class='container'>
+        <header class='cabecalho'>
+            <img class='logotipo' src='Icone.svg' alt='Logo RPG'>
+        </header>
+        <header1>
+            <section class="bloco-1">
+                <p1 class="bloco-1-titulo"><strong>DETALHES PESSOAIS</strong></p1>
+                <br>
+                <p2 class="bloco-1-escrita">Nome</p2>
+                <p3 class="button-bloco-1"><input class="inputUser" type="text" id="user"></p3>
+                <p4 class="bloco-1-escrita">Jogador</p4>
+                <p5 class="button-bloco-1"><input class="inputUser" type="text" id="jogador"></p5>
+                <p6 class="bloco-1-escrita">Ocupação</p6>
+                <p7 class="button-bloco-1"><input class="inputUser" type="text" id="ocupacao"></p7>
+                <p8 class="bloco-1-escrita">Idade</p8>
+                <p9 class="button-bloco-1"><input class="inputUser" type="text" id="idade"></p9>
+                <p10 class="bloco-1-escrita">Gênero</p10>
+                <p11 class="button-bloco-1"><input class="inputUser" type="text" id="genero"></p11>
+                <p12 class="bloco-1-escrita">Local de nascimento</p12>
+                <p13 class="button-bloco-1"><input class="inputUser" type="text" id="nasc"></p13>
+                <p14 class="bloco-1-escrita">Local de residência</p14>
+                <p15 class="button-bloco-1"><input class="inputUser" type="text" id="resi"></p15>
+            </section>
+        </header1>
+        <main>
+            <section class='bloco-2'>
+                <div1><img src="camera.svg" id="imgPreview"></div1>
+                <input type="file" id="myFileInput" name="fImage" accept="image/*">
+
+                <div2><button id="btn11" class="trigger" onclick="showModal()" style='border:1px solid black; background-color: transparent;'><img
+                class='imgdado2' src='dado2.svg' alt='dado.png'></button></div2>
+                <div3><strong>Vida</strong></strong></div3>
+                <div4><input class='inputUser2' type='text' id="vidanum" ></div4>
+                <div5>
+                <input type='radio' id='grav' name='saude' value='grav' required>
+                <label for='grave'>Lesão Grave</label>
+                </div5>
+                <div6>
+                <input type='radio' id='inconsciente' name='saude' value='inconsciente' required>
+                <label for='inconsciente'>Inconsciente</label>
+                </div6>
+                <div7>
+                <input type='radio' id='morrendo' name='saude' value='morrendo' required>
+                <label for='morrendo'>Morrendo</label>
+                </div7>
+                <div8><strong>Sanidade</strong></div8>
+                <div9><input class='inputUser3' type='text' id="saninum"></div9>
+                <div10><button id="btn12" class="trigger" onclick="showModal()" style='border:1px solid black; background-color: transparent;'><img
+                class='imgdado3' src='dado3.svg' alt='dado.png'></button></div10>
+                <div11>
+                <input type='radio' id='traumatizad' name='sanidade' value='traumatizado' required>
+                <label for='traumatizado'>Traumatizado</label>
+                </div11>
+                <div12>
+                <input type='radio' id='enlouquecido' name='sanidade' value='enlouquecido' required>
+                <label for='enlouquecido'>Enlouquecido</label>
+                </div12>
+            </section>
+        </main>
+        <aside>
+            <section class='bloco-3'>
+                <div13 class='atributos-titulo'>
+                    <p><strong>Atributos</strong></p>
+                </div13>
+                <div14><button id="btn1" class="trigger" onclick="showModal()" style='border:1px solid black; background-color: transparent;'><img
+                            class='imgdado' src='dado.svg' alt='dado.png'></button></div14>
+                <div15><button id="btn2" class="trigger" onclick="showModal()" style='border:1px solid black; background-color: transparent;'><img
+                            class='imgdado' src='dado.svg' alt='dado.png'></button></div15>
+                <div16><button id="btn3" class="trigger" onclick="showModal()" style='border:1px solid black; background-color: transparent;'><img
+                            class='imgdado' src='dado.svg' alt='dado.png'></button></div16>
+                <div17><button id="btn4" class="trigger" onclick="showModal()" style='border:1px solid black; background-color: transparent;'><img
+                            class='imgdado' src='dado.svg' alt='dado.png'></button></div17>
+                <div18>Força</div18>
+                <div19>Destreza</div19>
+                <div20>Constituição</div20>
+                <div21>Aparencia</div21>
+                <div22><button id="btn5" class="trigger" onclick="showModal()" style='border:1px solid black; background-color: transparent;'><img
+                            class='imgdado' src='dado.svg' alt='dado.png'></button></div22>
+                <div23><button id="btn6" class="trigger" onclick="showModal()" style='border:1px solid black; background-color: transparent;'><img
+                            class='imgdado' src='dado.svg' alt='dado.png'></button></div23>
+                <div24><button id="btn7" class="trigger" onclick="showModal()" style='border:1px solid black; background-color: transparent;'><img
+                            class='imgdado' src='dado.svg' alt='dado.png'></button></div24>
+                <div25><button id="btn8" class="trigger" onclick="showModal()" style='border:1px solid black; background-color: transparent;'><img
+                            class='imgdado' src='dado.svg' alt='dado.png'></button></div25>
+                <div26>Educação</div26>
+                <div27>Sorte</div27>
+                <div28>Poder</div28>
+                <div29>Inteligêngia</div29>
+                <div30><button id="btn9" class="trigger" onclick="showModal()" style='border:1px solid black; background-color: transparent;'><img
+                            class='imgdado' src='dado.svg' alt='dado.png'></button></div30>
+                <div31><button id="btn10" class="trigger" onclick="showModal()" style='border:1px solid black; background-color: transparent;'><img class='imgdado'
+                            src='dado.svg' alt='dado.png'></button></div31>
+                <div32></div32>
+                <div33></div33>
+                <div34>Movimento</div34>
+                <div35>Tamanho</div35>
+                <div36></div36>
+
+                <div class="modal" id="modal">
+                    <div class="modal-content">
+                        <span class="close-button" onclick="closeModal()">
+                        &times;
+                        </span>
+                        <h1 class="titulomodal"><strong>Rolagem de dado</strong></h1>
+                        <p class='numale' id="resultado"></p>
+                    </div>
+                </div>
+            </section>
+        </aside>
+        <aside1>
+        </aside1>
+        <aside2>
+            <section class='mochila'>
+                <div37>
+                    <p><strong>Mochila</strong></p>
+                </div37>
+                <div38>
+                    <p>Peso:</p>
+                    <p id="somadopeso">0</p>
+                    <p>/20Kg</p>
+                </div38>
+            <form>
+                <div39>
+                    <button type="button" id="delete_data1" style='border:1px solid black; background-color: transparent;'><img class='img' src='lixeira.svg' alt='icone-lixo'></button>
+                    <p><strong>Nome:</strong></p>
+                    <p><Input class='input_nome' id="item1"></Input></p>
+                    <p><strong>Peso:</strong></p>
+                    <p ><input class='input_peso' id="peso1"></p>
+                </div39>
+            </form>
+            <form>
+                <div40>
+                    <button type="button" id="delete_data2" style='border:1px solid black; background-color: transparent;'><img class='img' src='lixeira.svg' alt='icone-lixo'></button>
+                    <p><strong>Nome:</strong></p>
+                    <p><Input class='input_nome' id="item2"></Input></p>
+                    <p><strong>Peso:</strong></p>
+                    <p ><input class='input_peso' id="peso2"></p>
+                </div40>
+            </form>
+            <form>
+                <div41>
+                    <button type="button" id="delete_data3" style='border:1px solid black; background-color: transparent;'><img class='img' src='lixeira.svg' alt='icone-lixo'></button>
+                    <p><strong>Nome:</strong></p>
+                    <p><Input class='input_nome' id="item3"></Input></p>
+                    <p><strong>Peso:</strong></p>
+                    <p ><input class='input_peso' id="peso3"></p>
+                </div41>
+            </form>
+            <form>
+                <div42>
+                    <button type="button" id="delete_data4" style='border:1px solid black; background-color: transparent;'><img class='img' src='lixeira.svg' alt='icone-lixo'></button>
+                    <p><strong>Nome:</strong></p>
+                    <p><Input class='input_nome' id="item4"></Input></p>
+                    <p><strong>Peso:</strong></p>
+                    <p ><input class='input_peso' id="peso4"></p>
+                </div42>
+            </form>
+            <form>
+                <div43>
+                    <button type="button" id="delete_data5" style='border:1px solid black; background-color: transparent;'><img class='img' src='lixeira.svg' alt='icone-lixo'></button>
+                    <p><strong>Nome:</strong></p>
+                    <p><Input class='input_nome' id="item5"></Input></p>
+                    <p><strong>Peso:</strong></p>
+                    <p ><input class='input_peso' id="peso5"></p>
+                </div43>
+            </form>
+            <form>
+                <div44>
+                    <button type="button" id="delete_data6" style='border:1px solid black; background-color: transparent;'><img class='img' src='lixeira.svg' alt='icone-lixo'></button>
+                    <p><strong>Nome:</strong></p>
+                    <p><Input class='input_nome' id="item6"></Input></p>
+                    <p><strong>Peso:</strong></p>
+                    <p ><input class='input_peso' id="peso6"></p>
+                </div44>
+            </form>
+            <form>
+                <div45>
+                    <button type="button" id="delete_data7" style='border:1px solid black; background-color: transparent;'><img class='img' src='lixeira.svg' alt='icone-lixo'></button>
+                    <p><strong>Nome:</strong></p>
+                    <p><Input class='input_nome' id="item7"></Input></p>
+                    <p><strong>Peso:</strong></p>
+                    <p ><input class='input_peso' id="peso7"></p>
+                </div45>
+            </form>
+            <form>
+                <div46>
+                    <button type="button" id="delete_data8" style='border:1px solid black; background-color: transparent;'><img class='img' src='lixeira.svg' alt='icone-lixo'></button>
+                    <p><strong>Nome:</strong></p>
+                    <p><Input class='input_nome' id="item8"></Input></p>
+                    <p><strong >Peso:</strong></p>
+                    <p ><input class='input_peso' id="peso8"></p>
+                </div46>
+            </form>
+            <form>
+                <div47>
+                    <button type="button" id="delete_data9" style='border:1px solid black; background-color: transparent;'><img class='img' src='lixeira.svg' alt='icone-lixo'></button>
+                    <p><strong>Nome:</strong></p>
+                    <p><Input class='input_nome' id="item9"></Input></p>
+                    <p><strong>Peso:</strong></p>
+                    <p ><input class='input_peso' id="peso9"></p>
+                </div47>
+            </form>
+            <form>
+                <div48>
+                    <button type="button" id="delete_data10" style='border:1px solid black; background-color: transparent;'><img class='img' src='lixeira.svg' alt='icone-lixo'></button>
+                    <p><strong>Nome:</strong></p>
+                    <p><Input class='input_nome' id="item10"></Input></p>
+                    <p><strong>Peso:</strong></p>
+                    <p ><input class='input_peso' id="peso10"></p>
+                </div48>
+            </form>
+            <form>
+                <div49>
+                    <button type="button" id="delete_data11" style='border:1px solid black; background-color: transparent;'><img class='img' src='lixeira.svg' alt='icone-lixo'></button>
+                    <p><strong>Nome:</strong></p>
+                    <p><Input class='input_nome' id="item11"></Input></p>
+                    <p><strong>Peso:</strong></p>
+                    <p ><input class='input_peso' id="peso11"></p>
+                </div49>
+            </form>
+            <form>
+                <div50>
+                    <button type="button" id="delete_data12" style='border:1px solid black; background-color: transparent;'><img class='img' src='lixeira.svg' alt='icone-lixo'></button>
+                    <p><strong>Nome:</strong></p>
+                    <p><Input class='input_nome' id="item12"></Input></p>
+                    <p><strong>Peso:</strong></p>
+                    <p ><input class='input_peso' id="peso12"></p>
+                </div50>
+            </form>
+            </section>
+        </aside2>
+    </div>
+</body>
+<script type='text/javascript' src='RPG.js'></script>
+
+</html>
