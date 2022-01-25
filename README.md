@@ -34,10 +34,8 @@ I'm creating a site in HTML5/CSS3/JavaScript RPG as I'm a beginner I'm trying my
   Nesta terceira etapa foi desenvolvido o LocalStorage para armazenar as informações como nome,e os itens da mochila, a lixeira é um botão que apagara as informções do respectivo espaço, também foi implementdo o LocalStorage na imagem onde agora é possível selecionar uma imagem propria.
   
   In this third step, LocalStorage was developed to store information such as name, and items in the backpack, the trash is a button that will erase the information from the respective space, LocalStorage was also implemented in the image where it is now possible to select an image of its own.
-  <img src="https://user-images.githubusercontent.com/97368866/150584127-c375f199-4e29-47ba-b844-27de5e63448a.png">
-  <img src="https://user-images.githubusercontent.com/97368866/150584137-9fcb0480-9258-4e8c-95fb-366a824c830c.png">
-  <img src="https://user-images.githubusercontent.com/97368866/150584136-7d2f276c-c4c3-4bd0-9c6d-88d2a477b099.png">
-  <img src="https://user-images.githubusercontent.com/97368866/150584134-b84b1e73-0f7d-4303-84f7-acf0e448b921.png">
+  <img src="https://user-images.githubusercontent.com/97368866/151061305-3a47b34d-a7c0-4895-a92c-14aec2b12445.gif">
+  <img src="https://user-images.githubusercontent.com/97368866/151061895-04fb8f27-739e-4f20-9902-1deed13abd3b.gif">
   
   Nesta quarta etapa, depois de muita percistencia (pois ainda estou tendo dificuldades com algumas coisas!!) consegui adicionar uma 'modal' para exibir o numero que foi aleatoriezado pelo sistema ao clicar no botão do dado.
   
