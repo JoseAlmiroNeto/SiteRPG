@@ -40,6 +40,6 @@ I'm creating a site in HTML5/CSS3/JavaScript RPG as I'm a beginner I'm trying my
   <img src="https://user-images.githubusercontent.com/97368866/150584134-b84b1e73-0f7d-4303-84f7-acf0e448b921.png">
   
   Nesta quarta etapa, depois de muita percistencia(pois ainda sou junior) consegui adicionar uma 'modal' para exibir o numero que foi aleatoriezado pelo sistema ao clicar no botão do dado.
-  <img src="https://user-images.githubusercontent.com/97368866/150584127-c375f199-4e29-47ba-b844-27de5e63448a.png">
+  <img src="https://user-images.githubusercontent.com/97368866/151059770-26bdb734-ac44-450f-9256-04b339a47a97.gif">
   
 
