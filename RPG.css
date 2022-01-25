@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto+Slab&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    
+}
+
+.cabecalho {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+}
+
+.imgdado {
+    width: 80px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 20vh 70vh 70vh 80vh;
+    grid-template-areas: "header header header header"
+                         "header1 header1 main main"
+                         "aside aside aside1 aside1 "
+                         "aside2 aside2 aside2 aside2";
+    grid-gap: 45px;
+    margin: 0% 15% 10% 15%;
+}
+
+header {
+    grid-area: header;
+    background-color: rgb(0, 0, 0);
+ 
+}
+header1 {
+    font-size: 18px;
+    color: white;
+    grid-area: header1;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(41, 41, 41);
+    display: flex;
+    flex-direction: column;
+}
+.bloco-1 {
+    color: white;
+    display: grid;
+    font-family: 'Roboto Slab', serif;
+}
+.bloco-1-titulo {
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+.bloco-1-escrita {
+    font-size: 20px;
+    padding: 15px 0px 0px 25px;
+}
+.inputUser {
+    font-family: 'Roboto Slab', serif;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(41, 41, 41);
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 95%;
+    height: 35px;
+}
+.button-bloco-1 {
+    padding-left: 25px;
+}
+
+main {
+    grid-area: main;
+    background-color: rgb(0, 0, 0);
+    height: auto;
+}
+.bloco-2 {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 20vh 5vh 5vh 5vh 5vh 5vh 5vh;
+    grid-template-areas: "d1 . d2"
+                         "d3 . ."
+                         "d4 d4 d4"
+                         "d5 d6 d7"
+                         "d8 . ."
+                         "d9 d9 d10"
+                         "d11 d12 .";
+    grid-gap: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+input[type='file'] {
+    display: none;
+}
+
+#imgPreview {
+    margin-top: 10%;
+    width: 180px;
+    height: 180px;
+    padding:1px;
+    background-color: rgb(54, 54, 54);
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background .3s;
+}
+
+#imgPreview:hover{
+    background-color: rgb(131, 131, 131);
+    border: 5px solid #111;
+}
+.imgdado {
+    cursor: pointer;
+}
+.imgdado2 {
+    width: 150px;
+    cursor: pointer;
+}
+.imgdado3 {
+    width: 50px;
+    cursor: pointer;
+}
+.inputUser2 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background-color: rgb(68, 0, 0);
+    border: none;
+    outline: none;
+    height: 90%;
+    width: 12%;
+}
+.inputUser3 {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    background-color: rgb(0, 1, 85);
+    border: none;
+    outline: none;
+    height: 90%;
+    width: 18%;
+}
+div1 {
+    grid-area: d1;
+}
+div2 {
+    font-size: 30px;
+    grid-area: d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div3 {
+    font-size: 25px;
+    grid-area: d3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+div4 {
+    background-color: rgb(68, 0, 0);
+    grid-area: d4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 5px;
+}
+div5 {
+    grid-area: d5;
+}
+div6 {
+    grid-area: d6;
+}
+div7 {
+    grid-area: d7;
+}
+div8 {
+    font-size: 25px;
+    grid-area: d8;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+div9 {
+    grid-area: d9;
+    background-color: rgb(0, 1, 85);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 5px;
+}
+div10 {
+    grid-area: d10;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div11 {
+    grid-area: d11;
+}
+div12 {
+    grid-area: d12;
+}
+
+aside {
+    background-color: black;
+    height: auto;
+    grid-area: aside;
+    border: 1px solid rgb(41, 41, 41);
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.bloco-3 {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10vh 10vh 5vh 10vh 5vh 10vh 5vh;
+    grid-template-areas: "div1 div1 div1 div1"
+                         "div2 div3 div4 div5"
+                         "div6 div7 div8 div9"
+                         "div10 div11 div12 div13"
+                         "div14 div15 div16 div17"
+                         "div18 div19 div20 div21"
+                         "div22 div23 div24 div25";
+    
+}
+div13 {
+    color: white;
+    font-size: 35px;
+    background-color: black;
+    grid-area: div1;
+    display: flex;
+    justify-content: center;
+}
+.atributos-titulo {
+    border-block-end: 1px solid rgb(41, 41, 41);
+}
+div14{
+    background-color: black;
+    grid-area: div2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div15{
+    background-color: black;
+    grid-area: div3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div16{
+    background-color: black;
+    grid-area: div4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div17{
+    background-color: black;
+    grid-area: div5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div18{
+    font-size: 25px;
+    background-color: black;
+    grid-area: div6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+
+}
+div19{
+    font-size: 25px;
+    background-color: black;
+    height: auto;
+    grid-area: div7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+div20{
+    font-size: 25px;
+    background-color: black;
+    height: auto;
+    grid-area: div8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+div21{
+    font-size: 25px;
+    background-color: black;
+    height: auto;
+    grid-area: div9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+div22{
+    background-color: black;
+    height: auto;
+    grid-area: div10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div23{
+    background-color: black;
+    height: auto;
+    grid-area: div11;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div24{
+    background-color: black;
+    height: auto;
+    grid-area: div12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div25{
+    background-color: black;
+    height: auto;
+    grid-area: div13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div26{
+    font-size: 25px;
+    background-color: black;
+    height: auto;
+    grid-area: div14;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+div27{
+    font-size: 25px;
+    background-color: black;
+    height: auto;
+    grid-area: div15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+div28{
+    font-size: 25px;
+    background-color: black;
+    height: auto;
+    grid-area: div16;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+div29{
+    font-size: 25px;
+    background-color: black;
+    height: auto;
+    grid-area: div17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+div30{
+    background-color: black;
+    height: auto;
+    grid-area: div19;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div31{
+    background-color: black;
+    height: auto;
+    grid-area: div20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div34{
+    font-size: 25px;
+    background-color: black;
+    height: auto;
+    grid-area: div23;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+div35{
+    font-size: 25px;
+    background-color: black;
+    height: auto;
+    grid-area: div24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Slab', serif;
+}
+.modal{
+    position: fixed;
+    top:0px;
+    left:0px;
+    padding:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0.25s ease-in-out , opacity 0.25s ease-in-out, transform 0.25s ease-in-out;   
+}
+.modal-content{
+    color: white;
+    background-color: rgb(0, 0, 0); 
+    width: 500px;
+    height: 250px;
+    border: 0.4px solid white;
+}
+.titulomodal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-block-end: 15px;
+    border-block-end: 0.4px solid white;
+    
+}
+.close-button{
+    float: right;
+    width: 24px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+.close-button:hover{
+    background-color: rgb(0, 0, 0);
+}
+.numale {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.show-modal{
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);    
+}
+
+
+aside1 {
+    grid-area: aside1;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(41, 41, 41);
+}
+
+
+aside2 {
+    grid-area: aside2;
+    background-color: black;
+    height: auto;
+    border: 0.4px solid rgb(41, 41, 41);
+    
+}
+.mochila {
+    color: white;
+    font-size: 22px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 10vh 3vh 20vh 20vh 20vh;
+    grid-template-areas: "d37 d37 d37"
+                         "d38 d38 d38"
+                         "d39 d40 d41"
+                         "d42 d43 d44"
+                         "d45 d46 d47"
+                         "d48 d49 d50";
+}
+.img {
+    width: 20px;
+    border: 1.5px solid white;
+    padding: 10px 6px 10px 6px;
+    cursor: pointer;
+}
+.input_peso {
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    width: 45px;
+    border: none;
+    border-bottom: 1.5px solid rgb(41, 41, 41);
+    outline: none;
+}
+.input_nome {
+    font-size: 15px;
+    color: white;
+    background-color: transparent;
+    width: 150px;
+    border: none;
+    border-bottom: 1.5px solid rgb(41, 41, 41);
+    outline: none;
+
+}
+div37 {
+    grid-area: d37;
+    font-size: 35px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div38 {
+    grid-area: d38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-block-end: 0.4px solid rgb(41, 41, 41);
+}
+div39 {
+    grid-area: d39;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div40 {
+    grid-area: d40;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div41 {
+    grid-area: d41;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div42 {
+    grid-area: d42;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div43 {
+    grid-area: d43;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div44 {
+    grid-area: d44;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div45 {
+    grid-area: d45;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div46 {
+    grid-area: d46;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div47 {
+    grid-area: d47;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div48 {
+    grid-area: d48;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div49 {
+    grid-area: d49;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div50 {
+    grid-area: d50;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
