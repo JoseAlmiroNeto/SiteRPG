@@ -118,8 +118,8 @@ input[type='file'] {
     border: 5px solid #111;
 }
 .imgdado {
-    cursor: pointer;
     transition: all 4s linear;
+    cursor: pointer;
 }
 .imgdado:hover {
     transform: rotate(-720deg);
