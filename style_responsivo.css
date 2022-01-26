@@ -248,10 +248,7 @@ div12 {
 }
 }
 
-@media screen and (max-width: 375px) {
-   body {
-      height: 900px;
-   }
+@media screen and (max-width: 450px) {
    .container {
       max-width: 375px;
       display: grid;
