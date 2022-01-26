@@ -248,7 +248,7 @@ div12 {
 }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 375px) {
    body {
       height: 900px;
    }
@@ -282,19 +282,34 @@ div12 {
    height: 110px;
 }
 div5 {
-   font-size: 9px;
+   font-size: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 div6 {
-   font-size: 9px;
+   font-size: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 div7 {
-   font-size: 9px;
+   font-size: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 div11 {
-   font-size: 9px;
+   font-size: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 div12 {
-   font-size: 9px;
+   font-size: 8px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 .imgdado2 {
    width: 110px;
@@ -309,10 +324,13 @@ div12 {
    width: 30px;
 }
 .inputUser2 {
-   font-size: 16px;
+   font-size: 14px;
+}
+div9 {
+   width: 100%;
 }
 .inputUser3 {
-   font-size: 16px;
+   font-size: 13px;
 }
 
 
@@ -324,7 +342,7 @@ div12 {
    border-block-end: 1px solid rgb(41, 41, 41);
 }
 .atri {
-   font-size: 15px;
+   font-size: 12px;
  }
  
  .mochila {
