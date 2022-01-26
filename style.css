@@ -119,15 +119,34 @@ input[type='file'] {
 }
 .imgdado {
     cursor: pointer;
+    transition: all 4s linear;
 }
+.imgdado:hover {
+    transform: rotate(-720deg);
+}
+
 .imgdado2 {
     width: 150px;
     cursor: pointer;
+    transition: all 4s linear
 }
+.imgdado2:hover {
+    width: 150px;
+    cursor: pointer;
+    transform: rotate(-720deg);
+}
+
 .imgdado3 {
     width: 50px;
     cursor: pointer;
+    transition: all 4s linear
 }
+.imgdado3:hover {
+    width: 50px;
+    cursor: pointer;
+    transform: rotate(-720deg);
+}
+
 .inputUser2 {
     color: rgb(255, 255, 255);
     font-size: 30px;
@@ -428,6 +447,7 @@ div35{
     align-items: center;
     font-family: 'Roboto Slab', serif;
 }
+
 .modal{
     position: fixed;
     top:0px;
@@ -490,7 +510,6 @@ aside1 {
     background-color: rgb(0, 0, 0);
     border: 1px solid rgb(41, 41, 41);
 }
-
 
 aside2 {
     grid-area: aside2;
