@@ -7,23 +7,27 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: black;
-    
 }
+
 
 .cabecalho {
     background-color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
-    padding: 24px;
+    align-items: center;
+    height: 150px;
 }
 
-.imgdado {
-    width: 80px;
+.logotipo {
+    padding-top: 50px;
+    height: 150px;
+    width: 150px;
 }
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 20vh 70vh 70vh 80vh;
+    grid-template-rows: 20vh 70vh 70vh 80vh;;
     grid-template-areas: "header header header header"
                          "header1 header1 main main"
                          "aside aside aside1 aside1 "
@@ -45,11 +49,13 @@ header1 {
     border: 1px solid rgb(41, 41, 41);
     display: flex;
     flex-direction: column;
+    width: auto;
 }
 .bloco-1 {
     color: white;
     display: grid;
     font-family: 'Roboto Slab', serif;
+    
 }
 .bloco-1-titulo {
     font-size: 35px;
@@ -80,7 +86,7 @@ header1 {
 main {
     grid-area: main;
     background-color: rgb(0, 0, 0);
-    height: auto;
+    width: auto;
 }
 .bloco-2 {
     color: white;
@@ -115,11 +121,12 @@ input[type='file'] {
 
 #imgPreview:hover{
     background-color: rgb(131, 131, 131);
-    border: 5px solid #111;
+    border: 3px solid #111;
 }
 .imgdado {
-    transition: all 4s linear;
     cursor: pointer;
+    transition: all 4s linear;
+    width: 80px;
 }
 .imgdado:hover {
     transform: rotate(-720deg);
@@ -231,12 +238,12 @@ div12 {
 
 aside {
     background-color: black;
-    height: auto;
     grid-area: aside;
     border: 1px solid rgb(41, 41, 41);
     border-radius: 5px;
     padding-left: 30px;
     padding-right: 30px;
+    width: auto;
     
 }
 .bloco-3 {
@@ -263,6 +270,9 @@ div13 {
 }
 .atributos-titulo {
     border-block-end: 1px solid rgb(41, 41, 41);
+}
+.atri {
+    font-size: 25px;
 }
 div14{
     background-color: black;
@@ -296,7 +306,6 @@ div17{
     align-items: center;
 }
 div18{
-    font-size: 25px;
     background-color: black;
     grid-area: div6;
     display: flex;
@@ -306,7 +315,6 @@ div18{
 
 }
 div19{
-    font-size: 25px;
     background-color: black;
     height: auto;
     grid-area: div7;
@@ -316,7 +324,6 @@ div19{
     font-family: 'Roboto Slab', serif;
 }
 div20{
-    font-size: 25px;
     background-color: black;
     height: auto;
     grid-area: div8;
@@ -326,7 +333,7 @@ div20{
     font-family: 'Roboto Slab', serif;
 }
 div21{
-    font-size: 25px;
+
     background-color: black;
     height: auto;
     grid-area: div9;
@@ -372,7 +379,6 @@ div25{
 
 }
 div26{
-    font-size: 25px;
     background-color: black;
     height: auto;
     grid-area: div14;
@@ -382,7 +388,6 @@ div26{
     font-family: 'Roboto Slab', serif;
 }
 div27{
-    font-size: 25px;
     background-color: black;
     height: auto;
     grid-area: div15;
@@ -392,7 +397,6 @@ div27{
     font-family: 'Roboto Slab', serif;
 }
 div28{
-    font-size: 25px;
     background-color: black;
     height: auto;
     grid-area: div16;
@@ -402,7 +406,6 @@ div28{
     font-family: 'Roboto Slab', serif;
 }
 div29{
-    font-size: 25px;
     background-color: black;
     height: auto;
     grid-area: div17;
@@ -428,7 +431,6 @@ div31{
     align-items: center;
 }
 div34{
-    font-size: 25px;
     background-color: black;
     height: auto;
     grid-area: div23;
@@ -438,7 +440,6 @@ div34{
     font-family: 'Roboto Slab', serif;
 }
 div35{
-    font-size: 25px;
     background-color: black;
     height: auto;
     grid-area: div24;
@@ -516,6 +517,7 @@ aside2 {
     background-color: black;
     height: auto;
     border: 0.4px solid rgb(41, 41, 41);
+    width: auto;
     
 }
 .mochila {
