@@ -93,7 +93,7 @@ div12 {
 }
 }
 
-@media screen and (max-width: 1411px) {
+@media screen and (max-width: 1455px) {
    div5 {
       font-size: 12px;
    }
@@ -163,7 +163,7 @@ div12 {
         }
 }
 
-@media screen and (max-width: 1265px) {
+@media screen and (max-width: 1309px) {
    .container {
        grid-gap: 45px;
        margin: 0% 5% 10% 5%;
