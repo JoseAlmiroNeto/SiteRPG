@@ -97,6 +97,7 @@ if(localStorage.item12) {
 if(localStorage.peso12) {
     document.getElementById('peso12').value = localStorage.peso12;
 }
+
 var SalvarInfo = function() {
     var user = document.getElementById('user').value;
     var jogador = document.getElementById('jogador').value;
@@ -165,110 +166,109 @@ var SalvarInfo = function() {
     localStorage.setItem('item12', item12);
     localStorage.setItem('peso12', peso12);
 }
+
 document.onchange = SalvarInfo;
 
-var somapeso = document.getElementById('peso1').value;
-document.getElementById('somadopeso').innerHTML = somapeso;
-
-
-var delete_dataA = document.getElementById('delete_data1')
-delete_dataA.onclick=function() {
+var delete_data1 = document.getElementById('delete_data1')
+delete_data1.onclick=function() {
     localStorage.removeItem('item1')
     localStorage.removeItem('peso1')
 }
-delete_dataA.addEventListener('click', function() {
+delete_data1.addEventListener('click', function() {
     location.reload()
 })
-var delete_dataB = document.getElementById('delete_data2')
-delete_dataB.onclick=function() {
+var delete_data2 = document.getElementById('delete_data2')
+delete_data2.onclick=function() {
     localStorage.removeItem('item2')
     localStorage.removeItem('peso2')
 }
-delete_dataB.addEventListener('click', function() {
+delete_data2.addEventListener('click', function() {
     location.reload()
 })
-var delete_dataC = document.getElementById('delete_data3')
-delete_dataC.onclick=function() {
+var delete_data3 = document.getElementById('delete_data3')
+delete_data3.onclick=function() {
     localStorage.removeItem('item3')
     localStorage.removeItem('peso3')
 }
-delete_dataC.addEventListener('click', function() {
+delete_data3.addEventListener('click', function() {
     location.reload()
 })
-var delete_dataD = document.getElementById('delete_data4')
-delete_dataD.onclick=function() {
+var delete_data4 = document.getElementById('delete_data4')
+delete_data4.onclick=function() {
     localStorage.removeItem('item4')
     localStorage.removeItem('peso4')
 }
-delete_dataD.addEventListener('click', function() {
+delete_data4.addEventListener('click', function() {
     location.reload()
 })
-var delete_dataE = document.getElementById('delete_data5')
-delete_dataE.onclick=function() {
+var delete_data5 = document.getElementById('delete_data5')
+delete_data5.onclick=function() {
     localStorage.removeItem('item5')
     localStorage.removeItem('peso5')
 }
-delete_dataE.addEventListener('click', function() {
+delete_data5.addEventListener('click', function() {
     location.reload()
 })
-var delete_dataF = document.getElementById('delete_data6')
-delete_dataF.onclick=function() {
+var delete_data6 = document.getElementById('delete_data6')
+delete_data6.onclick=function() {
     localStorage.removeItem('item6')
     localStorage.removeItem('peso6')
 }
-delete_dataF.addEventListener('click', function() {
+delete_data6.addEventListener('click', function() {
     location.reload()
 })
-var delete_dataG = document.getElementById('delete_data7')
-delete_dataG.onclick=function() {
+var delete_data7 = document.getElementById('delete_data7')
+delete_data7.onclick=function() {
     localStorage.removeItem('item7')
     localStorage.removeItem('peso7')
 }
-delete_dataG.addEventListener('click', function() {
+delete_data7.addEventListener('click', function() {
     location.reload()
 })
-var delete_dataH = document.getElementById('delete_data8')
-delete_dataH.onclick=function() {
-    localStorage.removeItem('item8')
+var delete_data8 = document.getElementById('delete_data8')
+delete_data8.onclick=function() {
+    localStorage.removeItem('item8',)
     localStorage.removeItem('peso8')
 }
-delete_dataH.addEventListener('click', function() {
+delete_data8.addEventListener('click', function() {
     location.reload()
 })
-var delete_dataI = document.getElementById('delete_data9')
-delete_dataI.onclick=function() {
+var delete_data9 = document.getElementById('delete_data9')
+delete_data9.onclick=function() {
     localStorage.removeItem('item9')
     localStorage.removeItem('peso9')
 }
-delete_dataI.addEventListener('click', function() {
+delete_data9.addEventListener('click', function() {
     location.reload()
 })
-var delete_dataJ = document.getElementById('delete_data10')
-delete_dataJ.onclick=function() {
+var delete_data10 = document.getElementById('delete_data10')
+delete_data10.onclick=function() {
     localStorage.removeItem('item10')
     localStorage.removeItem('peso10')
 }
-delete_dataJ.addEventListener('click', function() {
+delete_data10.addEventListener('click', function() {
     location.reload()
 })
-var delete_dataK = document.getElementById('delete_data11')
-delete_dataK.onclick=function() {
+var delete_data11 = document.getElementById('delete_data11')
+delete_data11.onclick=function() {
     localStorage.removeItem('item11')
     localStorage.removeItem('peso11')
 }
-delete_dataK.addEventListener('click', function() {
+delete_data11.addEventListener('click', function() {
     location.reload()
 })
-var delete_dataL = document.getElementById('delete_data12')
-delete_dataL.onclick=function() {
+var delete_data12 = document.getElementById('delete_data12')
+delete_data12.onclick=function() {
     localStorage.removeItem('item12')
     localStorage.removeItem('peso12')
 }
-delete_dataL.addEventListener('click', function() {
+delete_data12.addEventListener('click', function() {
     location.reload()
 })
+
 let photo = document.getElementById('imgPreview');
 let fileimg = document.getElementById('myFileInput');
+
 photo.addEventListener('click', () =>  {
     fileimg.click();
 });
@@ -282,6 +282,7 @@ document.querySelector('#myFileInput').addEventListener('change', function() {
     reader.readAsDataURL(this.files[0]);
     location.reload()
 });
+
 document.addEventListener('DOMContentLoaded', () => {
     const recentImageDataUrl = localStorage.getItem('recent-image');
 
@@ -291,73 +292,71 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 
-
-
 function showModal() {
-    var element = document.getElementById("modal");
-    element.classList.add("show-modal");
+    var element = document.getElementById('modal');
+    element.classList.add('show-modal');
 }
 function closeModal() {
-    var element = document.getElementById("modal");
-    element.classList.remove("show-modal");
+    var element = document.getElementById('modal');
+    element.classList.remove('show-modal');
 }
 
 btn1.addEventListener("click", () => {
-    var random = Math.floor(Math.random() * 10) + 1;
+    var random = Math.floor(Math.random() * 20) + 1;
     document.getElementById('resultado').innerHTML = random;
 })
 
-btn2.addEventListener("click", () => {
-    var random = Math.floor(Math.random() * 10) + 1;
+btn2.addEventListener('click',() => {
+    var random = Math.floor(Math.random() * 20) + 1;
     document.getElementById('resultado').innerHTML = random;
 })
 
-btn3.addEventListener("click", () => {
-    var random = Math.floor(Math.random() * 10) + 1;
+btn3.addEventListener("click",() => {
+    var random = Math.floor(Math.random() * 20) + 1;
     document.getElementById('resultado').innerHTML = random;
 })
 
-btn4.addEventListener("click", () => {
-    var random = Math.floor(Math.random() * 10) + 1;
+btn4.addEventListener("click",() => {
+    var random = Math.floor(Math.random() * 20) + 1;
     document.getElementById('resultado').innerHTML = random;
 })
 
-btn5.addEventListener("click", () => {
-    var random = Math.floor(Math.random() * 10) + 1;
+btn5.addEventListener("click",() => {
+    var random = Math.floor(Math.random() * 20) + 1;
     document.getElementById('resultado').innerHTML = random;
 })
 
-btn6.addEventListener("click", () => {
-    var random = Math.floor(Math.random() * 10) + 1;
+btn6.addEventListener("click",() => {
+    var random = Math.floor(Math.random() * 20) + 1;
     document.getElementById('resultado').innerHTML = random;
 })
 
-btn7.addEventListener("click", () => {
-    var random = Math.floor(Math.random() * 10) + 1;
+btn7.addEventListener("click",() => {
+    var random = Math.floor(Math.random() * 20) + 1;
     document.getElementById('resultado').innerHTML = random;
 })
 
-btn8.addEventListener("click", () => {
-    var random = Math.floor(Math.random() * 10) + 1;
+btn8.addEventListener("click",() => {
+    var random = Math.floor(Math.random() * 20) + 1;
     document.getElementById('resultado').innerHTML = random;
 })
 
-btn9.addEventListener("click", () => {
-    var random = Math.floor(Math.random() * 10) + 1;
+btn9.addEventListener("click",() => {
+    var random = Math.floor(Math.random() * 20) + 1;
     document.getElementById('resultado').innerHTML = random;
 })
 
-btn10.addEventListener("click", () => {
-    var random = Math.floor(Math.random() * 10) + 1;
+btn10.addEventListener("click",() => {
+    var random = Math.floor(Math.random() * 20) + 1;
     document.getElementById('resultado').innerHTML = random;
 })
 
-btn11.addEventListener("click", () => {
-    var random = Math.floor(Math.random() * 10) + 1;
+btn11.addEventListener("click",() => {
+    var random = Math.floor(Math.random() * 20) + 1;
     document.getElementById('resultado').innerHTML = random;
 })
 
-btn12.addEventListener("click", () => {
+btn12.addEventListener("click",() => {
     var random = Math.floor(Math.random() * 100) + 1;
     document.getElementById('resultado').innerHTML = random;
 })
