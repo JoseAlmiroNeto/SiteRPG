@@ -243,6 +243,13 @@ div12 {
 }
 }
 
+@media screen and (max-width: 1024px) {
+   .input_nome {
+   font-size: 15px;
+   width: 105px
+    }
+}
+
 @media screen and (max-width: 450px) {
    .container {
       max-width: 375px;
