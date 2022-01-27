@@ -50,4 +50,4 @@ site: https://josealmironeto.github.io/SiteRPG/
   Ideias Futuras:<br>
   Ao clicar na box de status que fica em baixo da vida e da sanidade, fazer uma animações na img do usuario;<br>
   Criar um container para adicionar ataques predefinidos com dados;<br>
-  cliar um formulario antes de entrar na pagina da ficha;
+  Criar um formulario antes de entrar na pagina da ficha;
