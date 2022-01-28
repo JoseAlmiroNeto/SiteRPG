@@ -257,8 +257,8 @@ div12 {
       grid-template-columns: 1fr;
       grid-template-rows: auto;
       grid-template-areas:  "header header header"
-                            "header1 header1 header1"
                             "main main main"
+                            "header1 header1 header1"
                             "aside aside aside"
                             "aside1 aside1 aside1"
                             "aside2 aside2 aside2";
