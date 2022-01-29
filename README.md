@@ -3,6 +3,8 @@ Estou criando um site em HTML5/CSS3/JavaScript de RPG, como sou iniciante estou 
 
 I'm creating a site in HTML5/CSS3/JavaScript RPG as I'm a beginner I'm trying my best to make it as beautiful and efficient as possible, every day I look for something to implement or something that helps me make the page better. I will report all Uptades.
 
+Inspiration: https://twitter.com/jvdutrag/status/1396533006542725123
+
 site: https://josealmironeto.github.io/SiteRPG/
 
 ### <img src="https://media4.giphy.com/media/Kfl09udXYhbjajJwEt/giphy.gif" width="45"> Linhuagens Usadas <img src="https://media4.giphy.com/media/Kfl09udXYhbjajJwEt/giphy.gif" width="45">   
